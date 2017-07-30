@@ -1,0 +1,26 @@
+@import '~react-md/src/scss/react-md';
+
+$accessmap-blue-primary: $md-indigo-600; /* #1b4274; */
+$accessmap-blue-secondary: #8bbbe5;
+$accessmap-green: #85ba41;
+$accessmap-redorange: #f26622;
+$accessmap-gray: #f2f0eb;
+
+$md-primary-color: $accessmap-blue-primary; /* $md-indigo-600; */
+$md-secondary-color: $accessmap-green; /*$md-lime-a-700; */
+$md-tertiary-color: $accessmap-gray; /* $md-grey-300; */
+
+// Fallback colors - required if we use non-material design colors
+$md-data-table-contextual-fallback-color: $accessmap-green;
+$md-linear-progress-fallback-color: $accessmap-green;
+$md-switch-ball-fallback-color: $accessmap-green;
+
+.main-container,
+.darker-background {
+    background-color: $md-tertiary-color;
+}
+
+a:link {
+    color: $md-secondary-color;
+    text-decoration: none;
+}
